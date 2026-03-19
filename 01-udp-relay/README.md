@@ -19,12 +19,12 @@ The problem with running the server locally: both machines are behind NAT, and a
 
 **Server (EC2):**
 ```bash
-python3 udp_server_socket.py
+python3 server.py
 ```
 
 **Client** — replace `<YOUR_SERVER_IP>` with the EC2 public IP, then:
 ```bash
-python3 udp_client_socket.py
+python3 client.py
 ```
 
 ## Example

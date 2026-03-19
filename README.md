@@ -1,9 +1,10 @@
 # Python Networking
 
-Hands-on implementations of networking concepts from [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/index.php) by Jim Kurose & Keith Ross, following the [YouTube lecture series](https://www.youtube.com/@JimKurose/featured).
+Hands-on implementations of networking concepts in Python.
 
 ## Exercises
 
 | Folder | Protocol | Description |
 |--------|----------|-------------|
-| [udp-socket](./udp-socket) | UDP | Client/server message exchange |
+| [udp-relay](./01-udp-relay) | UDP | Client/server message exchange |
+| [udp-hole-punching](./02-udp-hole-punching) | UDP | P2P chat via NAT hole-punching |
